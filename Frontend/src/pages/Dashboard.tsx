@@ -15,7 +15,7 @@ export const Dashboard = () => {
 
           <motion.div animate={{ y: [100, 0] }} transition={{ duration: 1.1 }}>
             <h1 className="text-gray tracking-tighter md:text-md xl:text-xl ">
-              Where your stories come to life, powered by Generative AI✨.
+              Where your stories come to life, supports Generative AI✨.
             </h1>
           </motion.div>
         </div>
