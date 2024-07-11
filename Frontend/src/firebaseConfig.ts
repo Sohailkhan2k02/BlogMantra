@@ -2,16 +2,16 @@ import { initializeApp } from "firebase/app";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDSOYU239tJy3DxNs95Lb1g6IPThasQsvM",
-  authDomain: "blogmantra-c7150.firebaseapp.com",
-  projectId: "blogmantra-c7150",
-  storageBucket: "blogmantra-c7150.appspot.com",
-  messagingSenderId: "204522028313",
-  appId: "1:204522028313:web:85361c04f3173622b9d988",
-  measurementId: "G-ZMB29KMP8Y"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket:"blogmantra-c7150.appspot.com",
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 };
-
 
 const app = initializeApp(firebaseConfig);
 const storage = getStorage(app);
+
 export { storage };
