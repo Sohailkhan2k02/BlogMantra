@@ -1,5 +1,5 @@
 ### Application
-(BlogMantra-app)[https://kaagaz-2k.vercel.app]
+(BlogMantra-app)[blogmantra-app.vercel.app]
 
 ### App features
 
