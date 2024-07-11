@@ -1,5 +1,5 @@
 ### Application
-(BlogMantra-app)[blogmantra-app.vercel.app]
+(BlogMantra-app)[https://blogmantra-app.vercel.app/]
 
 ### App features
 
