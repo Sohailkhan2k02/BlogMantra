@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.11.4",
+    "@prisma/client": "^5.10.2",
+    "@prisma/extension-accelerate": "^1.1.0",
+    "@sohailkhan786/blogmantra": "^1.0.8",
+    "dotenv": "^16.4.5",
+    "groq-sdk": "^0.4.0",
+    "hono": "^4.0.8",
+    "openai": "^4.47.1",
+    "prisma": "^5.16.2"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240208.0",
+    "wrangler": "^3.25.0"
+  }
+}
